@@ -5,14 +5,14 @@ Flash
 
 .. php:class:: FlashHelper(View $view, array $config = [])
 
-FlashHelper provides a way to render flash messages that were set in
-``$_SESSION`` by :doc:`FlashComponent </controllers/components/flash>`.
+FlashHelper 提供了一种渲染flash messages的方式保存在`$_SESSION`中，
+来自文档:`FlashComponent </controllers/components/flash>`.
 :doc:`FlashComponent </controllers/components/flash>` and FlashHelper
 primarily use elements to render flash messages.  Flash elements are found under
 the **src/Template/Element/Flash** directory.  You'll notice that CakePHP's App
 template comes with two flash elements: **success.ctp** and **error.ctp**.
 
-Rendering Flash Messages
+渲染 Flash Messages
 ========================
 
 To render a flash message, you can simply use FlashHelper's ``render()``
