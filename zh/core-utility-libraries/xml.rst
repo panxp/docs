@@ -22,7 +22,7 @@ Xml类充许将数组转换成 ``SimpleXMLElement`` 或者 ``DOMDocument`` 对�
 
     static Cake\Utility\Xml::build($input, array $options =[])
 
-你可使用Xml::build() 载入XML-ish数据。取决于你 ``$options`` 的参数，这个方法允许你返回一个 ``SimpleXMLElement (default) or DOMDocument`` 对象，在各种数据源中，你可使用 ``Xml::build()`` 去创建一个XML对象。例如，你可以通过下面的设置创建XML。
+你可使用Xml::build() 载入XML-ish数据。取决于你 ``$options`` 的参数，这个方法允许你返回一个 ``SimpleXMLElement (default) or DOMDocument`` 对象，在各种数据源中，你可使用 ``Xml::build()`` 去创建一个XML对象。例如，你可以通过下面的设置创建XML。 
 
 ::
 
